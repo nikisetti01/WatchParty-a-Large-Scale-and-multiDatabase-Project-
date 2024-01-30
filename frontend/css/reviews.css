@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    margin: 20px;
+}
+
+#review-list {
+    margin-bottom: 40px;
+}
+
+#add-review form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+#add-review form label,
+#add-review form input,
+#add-review form textarea,
+#add-review form button {
+    margin: 10px 0;
+}

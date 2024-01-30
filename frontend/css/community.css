@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+#posts-container {
+    margin: 20px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.recommended-btn {
+    display: block; /* o 'inline-block' a seconda delle tue necessità */
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4CAF50; /* Colore verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recommended-btn:hover {
+    background-color: #45a049; /* Colore verde più scuro */
+}
+
+
+.comment {
+    background-color: #e9e9e9;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#create-post {
+    margin: 20px;
+}
+
+#create-post textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#create-post button {
+    padding: 10px;
+    width: 100%;
+}
+#community-menu {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  #community-buttons {
+    margin-top: 10px;
+  }
+  
+  .community-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #user-table-container {
+    margin-left: 25%;
+    padding: 20px;
+  }
+  
+  #user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #user-table th,
+  #user-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #user-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

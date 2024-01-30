@@ -1,0 +1,19 @@
+#watchlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#watchlist li {
+    background-color: #f2f2f2;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.movie-title {
+    font-weight: bold;
+}
+
+.movie-runtime, .movie-rating {
+    margin-left: 15px;
+}

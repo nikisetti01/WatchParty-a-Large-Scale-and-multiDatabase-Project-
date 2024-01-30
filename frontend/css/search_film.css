@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-results {
+  margin-top: 20px;
+}
+#user a {
+  color: inherit; /* Utilizza il colore del testo genitore (h1) */
+  text-decoration: none; /* Rimuove la sottolineatura del link */
+}
+
+#user :hover {
+  text-decoration: underline; /* Sottolinea il link al passaggio del mouse (se desiderato) */
+}
+
+
+/* Aggiungi altri stili personalizzati qui */

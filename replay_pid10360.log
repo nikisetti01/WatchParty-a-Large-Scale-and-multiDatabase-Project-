@@ -1,0 +1,6 @@
+version 2
+JvmtiExport can_access_local_variables 64
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 165
+# 171 ciObject found
+instanceKlass java/lang/reflect/Constructor

@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  section {
+    flex-basis: 48%;
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    margin: 0 0 1rem;
+  }
+  
+ /* Stile per la sezione delle watchlist */
+.watchlist-section {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.watchlist-section h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.2em;
+}
+
+/* Stile per la lista di film */
+#watchedMovieList, #toWatchMovieList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#watchedMovieList li, #toWatchMovieList li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+#watchedMovieList li:last-child, #toWatchMovieList li:last-child {
+  border-bottom: none;
+}
+
+/* Stile per il pulsante "+" */
+.btn-plus {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user-tags {
+  font-size: 0.9em; /* Riduci la dimensione del font */
+  word-wrap: break-word; /* Assicura che il testo si adegui allo spazio disponibile */
+  max-width: 100%; /* Imposta la larghezza massima */
+}
+
+
+.btn-plus:hover {
+  background-color: #333;
+}
+
+/* Assicurati che il pulsante "+" non sia troppo grande */
+.btn-plus {
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* Add this inside your CSS file */
+
+
+#affinityButton {
+  background-color: #007bff; /* Colore di sfondo del bottone */
+  color: #fff; /* Colore del testo del bottone */
+  padding: 10px 20px; /* Spaziatura interna del bottone (alto e largo) */
+  border: none; /* Rimuove il bordo del bottone */
+  border-radius: 5px; /* Bordi arrotondati */
+  cursor: pointer; /* Cambia il cursore quando si passa sopra il bottone */
+  font-size: 16px; /* Dimensione del testo */
+}
+
+#affinityButton:hover {
+  background-color: #0056b3; /* Cambia il colore di sfondo quando si passa sopra il bottone */
+}
+
+
+
+  #myChart {
+    width: 300px !important;
+    height: 300px !important;
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
+
+  #stats {
+    flex-basis: 100%;
+  }
+  
+  #stats ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #stats li {
+    margin-bottom: 1rem;
+  }
+  
+  #stats li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #stats li ul li {
+    margin-right: 1rem;
+  }
+  
+  .bar-container {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: #333;
+    margin-right: 0.5rem;
+  }
+  
+  .label {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .count {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .add-film-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
