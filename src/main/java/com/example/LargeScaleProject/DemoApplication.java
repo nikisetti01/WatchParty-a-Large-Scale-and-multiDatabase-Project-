@@ -32,7 +32,6 @@ public class DemoApplication {
     public CommandLineRunner testUserService(MongodbUserService mongodbUserService, MongodbWatchlistservice mongodbWatchlistservice, MongodbMovieService mongodbMovieService, MongodbReviewService mongodbReviewService, Neo4jUserService neo4jUserService, Neo4jCommunityService
             neo4jCommunityService, Neo4jPostService neo4jPostService, Neo4jCommentService neo4jCommentService) {
         return args -> {
-                mongodbUserService.addAdmin(new Admin("Admin","admin","Firenze","1234"));
 
 
         };
