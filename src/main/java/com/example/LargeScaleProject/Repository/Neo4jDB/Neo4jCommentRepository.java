@@ -16,5 +16,6 @@ public interface Neo4jCommentRepository extends Neo4jRepository<Comment, Long> {
     @Query("MATCH (p:Post{postId: $postId})<-[c:COMMENT]-(author:User) RETURN author.username")
     List <String>findAuthorByComments(@Param("postId") String postId);
 
+    void deleteCommentById(long id);
 
 }
